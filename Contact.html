@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <!-- Add this inside the <head> of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="CSS/contact.css">
+    
+ 
+</head>
+<body>
+ <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="EarthBubs" />
+      <span>EarthBubs</span>
+    </div>
+    <nav class="nav-links">
+      <a href="BabyHomePage.html" class="active">Home</a>
+      <a href="#Featured">Products</a>
+      <a href="Offers.html">Offers</a>
+      <a href="AboutUs.html">About</a>
+      <a href="Contact.html">Contacts</a>
+    </nav>
+    <div class="nav-icons">
+      <input type="text" placeholder="Search..." class="search-box">
+      <i class="fas fa-shopping-cart" onclick="window.location.href='Addtocart.html'"></i>
+      <i class="fas fa-user" onclick="window.location.href='Profile.html'"></i>
+      
+    </div>
+  </header>
+
+   <div class="breadcrumbs">
+      Home > Contact Us
+    </div>
+
+  <h2> Contact Us</h2>
+
+  <div class="contact-container">
+
+    <!-- Left Card -->
+    <div class="card4 contact-left">
+        <div class="contact1">
+     <h2>Contact Information</h2>
+     <p>Say something to start a live chat!</p>
+     </div>
+     <div class="info1">
+      <div class="info"><i class="fas fa-phone-alt"></i> <span>+91 98765 43210</span></div>
+      <div class="info"><i class="fas fa-envelope"></i> <span>support@earthbubs.com</span></div>
+      <div class="info"><i class="fas fa-map-marker-alt"></i> <span>123 Earth Street, BabyTown, India</span></div>
+    </div>
+</div>
+    <!-- Right Card (Form) -->
+    <div class="card5 contact-right">
+      <form>
+     <div class="input-row">
+        <div class="form-group">
+            <h3>Full Name</h3>
+            
+          <input type="text" placeholder="First Name" required>
+        </div>
+         <div class="form-group">
+          <h3>Last Name</h3>
+          <input type="text" placeholder="Last Name" required>
+        </div>
+    </div>
+    <div class="input-row">
+        <div class="form-group">
+            <h3>Email</h3>
+          <input type="email" placeholder="Email Address" required>
+        </div>
+           <div class="form-group">
+          <h3>Phone Number</h3>
+          <input type="tel" placeholder="Phone Number" required>
+        </div>
+
+    </div>
+        <div class="radio-group">
+            <h3>Select Subject</h3>
+          <label><input type="radio" name="subject" value="General Inquiry" checked> General Inquiry</label>
+          <label><input type="radio" name="subject" value="Call Request"> Call Request</label>
+          <label><input type="radio" name="subject" value="Complaints"> Complaints</label>
+          <label><input type="radio" name="subject" value="Info"> Information</label>
+        </div>
+
+        <div class="form-group">
+            <h3>Message</h3>
+          <textarea placeholder="Your Message..." required></textarea>
+        </div>
+
+        <div class="send-btn">
+          <button type="submit">Send Message ➤</button>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>

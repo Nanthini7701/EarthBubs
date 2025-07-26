@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Page</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="CSS/payment.css"/>
+   
+</head>
+<body>
+   <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="EarthBubs" />
+      <span>EarthBubs</span>
+    </div>
+    <nav class="nav-links">
+      <a href="BabyHomePage.html" class="active">Home</a>
+      <a href="">Products</a>
+      <a href="Offers.html">Offers</a>
+      <a href="AboutUs.html">About</a>
+      <a href="Contact.html">Contacts</a>
+    </nav>
+    <div class="nav-icons">
+      <input type="text" placeholder="Search..." class="search-box">
+      <i class="fas fa-shopping-cart" onclick="window.location.href='Addtocart.html'"></i>
+      <i class="fas fa-user" onclick="window.location.href='Profile.html'"></i>
+      
+    </div>
+  </header>
+  
+   <div class="breadcrumbs">
+      Home>Add to cart >Payment 
+    </div>
+
+ <h1>Details</h1>
+  <div class="container">
+    <!-- Left Card -->
+    <div class="card">
+     
+      <form>
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="Enter First Name" required />
+        </div>
+        <div class="form-group">
+          <label for="company">Company Name</label>
+          <input type="text" id="company" placeholder="Company Name" />
+        </div>
+        <div class="form-group">
+          <label for="street">Street Address</label>
+          <input type="text" id="street" placeholder="Street Address" required />
+        </div>
+        <div class="form-group">
+          <label for="apartment">Apartment</label>
+          <input type="text" id="apartment" placeholder="Apartment or Suite" />
+        </div>
+        <div class="form-group">
+          <label for="floor">Floor (Optional)</label>
+          <input type="text" id="floor" placeholder="Floor Number" />
+        </div>
+        <div class="form-group">
+          <label for="city">Tower/City</label>
+          <input type="text" id="city" placeholder="City or Tower" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Email Address" required />
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="save-info" />
+          <label for="save-info">Save this information for faster check-out next time</label>
+        </div>
+      </form>
+    </div>
+
+    <!-- Right Card -->
+    <div class="card1">
+      <h2>Order Summary</h2>
+      <div class="summary-item">
+        <span>Subtotal</span>
+        <span>₹2000.00</span>
+      </div>
+      <hr>
+      <div class="summary-item">
+        <span>Discount</span>
+        <span>-₹200.00</span>
+      </div>
+      <hr>
+      <div class="summary-item">
+        <span>Shipping</span>
+        <span>Free</span>
+      </div>
+     
+      <div class="summary-item total">
+        <span>Total</span>
+        <span>₹1800.00</span>
+      </div>
+
+      <h3 style="margin-top:20px;">Payment Options</h3>
+      <div class="payment-icons">
+        <div class="icon-card">
+        <img src="https://img.icons8.com/color/48/google-pay.png" alt="GPay" />
+    </div>
+     <div class="icon-card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/apple-pay.png" alt="Apple Pay" /></div>
+         <div class="icon-card">
+        <img src="https://img.icons8.com/color/48/amazon.png" alt="Amazon Pay" /></div>
+         <div class="icon-card">
+        <img src="https://img.icons8.com/color/48/paytm.png" alt="Paytm" /></div>
+         <div class="icon-card">
+        <img src="https://img.icons8.com/color/48/upi.png" alt="UPI" /></div>
+         <div class="icon-card">
+        <img src="https://img.icons8.com/ios-filled/50/000000/plus-math.png" alt="Add" />
+      </div>
+</div>
+      <div class="radio-group">
+        <input type="radio" name="payment" id="cod" checked />
+        <label for="cod">Cash on Delivery</label>
+      </div>
+
+      <button class="place-order-btn" onclick="window.location.href='paymentSuccess.html'">Place Order</button>
+    </div>
+  </div>
+
+ 
+  
+   <footer class="footer">
+    <div class="footer-col">
+      <h4>KNOW</h4>
+      <hr border="1" style="border-color: black;">
+      <p>About Us</p>
+      <p>About Earthbubs Store</p>
+      <p>Bulk Purchase & Corporate Gifts</p>
+    </div>
+    <div class="footer-col">
+      <h4>TERMS & CONDITIONS</h4>
+      <hr border="1"  style="border-color: black;">
+      <p>Shipping & Returns Policy</p>
+      <p>Privacy Policy</p>
+      <p>FAQ's</p>
+    </div>
+    <div class="footer-col">
+      <h4>CONTACT US</h4>
+      <hr border="1"  style="border-color: black;">
+      <p>For Sale: Earthbubs@co.in</p>
+      <p>Call: +91 1234567890</p>
+      <p>For Complaints:1800 202 2222</p>
+      <p>Chat Tim: Our Tem is Available<br>from Monday to Saturday from<br>9.00AM to 8.00PM</p>
+      <p>For Complaints:Ebcustomrcare.com</p>
+    </div>
+    <div class="footer-col follow-us">
+  <h4>FOLLOW US</h4>
+  <hr border="1"  style="border-color: black;">
+  <div class="social-icons" >
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+  </div>
+</div>
+
+  </footer>
+  
+</body>
+</html>

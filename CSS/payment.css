@@ -1,0 +1,250 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      padding: 20px;
+    }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 10px 5%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  background-color: #b2ebf2;
+  color: #000;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.breadcrumbs{
+ font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  position:absolute;
+  top: 40px;
+  left: 10px;
+}
+.search-box {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      margin-left: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+     .card1 {
+      background: white;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      padding: 20px;
+      height: 60% ;
+       margin-left: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #00bcd4;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+      
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"] {
+      width: 100%;
+      padding: 8px;
+      border: 2px solid aqua;
+      background-color: #c3f0fd;
+      border-radius: 5px;
+    }
+
+    .form-group input::placeholder {
+      color: #00bcd4;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    hr{
+        border: 1px solid aqua;
+    }
+    .checkbox-group {
+      margin-top: 10px;
+    }
+
+    .checkbox-group input {
+      margin-right: 10px;
+    }
+
+    .summary-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+    }
+
+    .summary-item.total {
+      font-weight: bold;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
+
+    .payment-icons {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .payment-icons img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .radio-group {
+      margin: 15px 0;
+      align-items: center;
+      margin-left: 180px;
+    }
+
+    .place-order-btn {
+      background: #00bcd4;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-left: 180px;
+      border-radius: 5px;
+      width: 50%;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .icon-card{
+        align-items: center;
+        text-align: center;
+        border: 1px solid aqua;
+        width: 60px;
+        height: 50px;
+    }
+
+    .place-order-btn:hover {
+      background: #0097a7;
+    }
+    .footer {
+  background: #b2ebf2;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-col h4 {
+  margin-bottom: 8px;
+}
+hr{
+    border:1px solid aqua;
+    color: aqua;
+
+}
+.remove-btn {
+  position: absolute;
+  top: 200px;
+  right:150px;
+  color: #00bcd4;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.remove-btn1 {
+  position: absolute;
+  top: 250px;
+  right:150px;
+  color: #00bcd4;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow-us .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.follow-us .social-icons a {
+  color: #00bcd4;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.follow-us .social-icons a:hover {
+  transform: scale(1.2);
+}
